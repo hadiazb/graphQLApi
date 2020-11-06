@@ -1,0 +1,23 @@
+.nav {
+	height: 80px;
+	padding: 0 30px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: darkblue;
+	&__list {
+		height: 80%;
+		width: 200px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+    
+		&-item {
+			padding-left: 20px;
+		}
+	}
+}
+.boton {
+  text-shadow: 0 0 10px white;
+  text-decoration: underline;
+}

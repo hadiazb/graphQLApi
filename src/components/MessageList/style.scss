@@ -1,0 +1,49 @@
+.content {
+	padding: 50px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__list {
+		width: 100%;
+		padding: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: flex-start;
+
+		&-item {
+			width: 180px;
+			padding: 5px;
+			margin: 10px;
+			height: 150px;
+			padding: 5px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 5px;
+			box-shadow: 0 0 10px 1px
+				rgba($color: #000000, $alpha: 0.2);
+
+			& .container {
+				height: 100%;
+				padding: 0;
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				align-items: center;
+
+				&__title {
+					text-transform: capitalize;
+				}
+				&__content {
+					text-transform: capitalize;
+				}
+				&__author {
+					text-transform: capitalize;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,58 @@
+.container {
+	padding: 50px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__form {
+		width: 320px;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+
+		&-author {
+			border: 1px solid rgba($color: #000000, $alpha: 0.2);
+			width: 100%;
+			height: 35px;
+			padding: 0 20px;
+      outline: none;
+      border-radius: 2px;
+			box-shadow: 0 0 2px 1px
+				rgba($color: #000000, $alpha: 0.2);
+		}
+		&-title {
+			border: 1px solid rgba($color: #000000, $alpha: 0.2);
+			width: 100%;
+			height: 35px;
+			padding: 0 20px;
+      outline: none;
+      border-radius: 2px;
+			box-shadow: 0 0 2px 1px
+				rgba($color: #000000, $alpha: 0.2);
+		}
+
+		&-content {
+			border: 1px solid rgba($color: #000000, $alpha: 0.2);
+			width: 100%;
+			height: 150px;
+			padding: 10px 20px;
+      outline: none;
+      border-radius: 2px;
+			box-shadow: 0 0 2px 1px
+				rgba($color: #000000, $alpha: 0.2);
+		}
+		&-button {
+			border: 1px solid rgba($color: #000000, $alpha: 0.2);
+			width: 100%;
+			height: 35px;
+			padding: 0 20px;
+			outline: none;
+			border-radius: 4px;
+			cursor: pointer;
+			box-shadow: 0 0 2px 1px
+				rgba($color: #000000, $alpha: 0.2);
+		}
+	}
+}
